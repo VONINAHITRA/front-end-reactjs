@@ -1,0 +1,14 @@
+#logo{
+    width: 50px;
+}
+.grandTitre{
+    margin-left: 35%;
+    font-style: normal;;
+    font-size: 40px;
+    color:#b7004d;
+
+}
+.bgMenu{
+    background-color: #1f232a;
+    position: fixed;
+}
