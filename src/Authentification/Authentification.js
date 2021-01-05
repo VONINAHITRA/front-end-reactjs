@@ -27,7 +27,6 @@ export default class Connection extends Component {
         window.location.reload(true);
       })
   }
-
   handleChangeCourriel = event =>{this.setState({courriel: event.target.value}); }
   handleChangeMotDePasse = event => { this.setState({ motDePasse: event.target.value }); }
   render() {

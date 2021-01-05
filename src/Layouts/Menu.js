@@ -27,7 +27,9 @@ const Menu = () => {
             <li><Link to="/livrePrive">Livre Privé</Link></li>
             <li><Link to="/livreCreate">Création un livre</Link></li>
             <li><Link to="/newcompte">Créer un compte</Link></li>
-           <li><Link to="/cnx">Se connecter</Link></li>
+            <li><Link to="/cnx">Se connecter</Link></li>
+            <li>
+             </li>
         </ul>
       </div>
       </nav>

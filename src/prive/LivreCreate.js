@@ -51,18 +51,18 @@ handleSubmit = event => {
            <br/>
               <form onSubmit = { this.handleSubmit }>
               <label> Titre:
-            <input  placeholder="Ex: Amour de la Patrie" id="titre" name="titre" type="text" className="validate" onChange= {this.handleChangeTitre}/>
+            <input  placeholder="Ex: Amour de la Patrie" id="titre" name="titre" type="text" className="validate" onChange= {this.handleChangeTitre} required/>
             </label>
              <label> Description:
-           <textarea id="description" name="description" className="materialize-textarea" placeholder="Ex: Un jeune leader qui dévelopé leur pays" onChange= {this.handleChangeDescription}></textarea>
+           <textarea id="description" name="description" className="materialize-textarea" placeholder="Ex: Un jeune leader qui dévelopé leur pays" onChange= {this.handleChangeDescription} required></textarea>
             <label >Auteur</label>
-               <input  placeholder="Ex: VONINAHITRA Calvyn " id="auteur" name="auteur" type="text" className="validate" onChange= {this.handleChangeAuteur}/>
+               <input  placeholder="Ex: VONINAHITRA Calvyn " id="auteur" name="auteur" type="text" className="validate" onChange= {this.handleChangeAuteur} required/>
             </label>
                <label> Couverture:
              <div className="file-field input-field">
               <div className="btn">
               <span>Image</span>
-             <input type="file" accept="image/*" onChange= {this.handleChangeCouverture} />
+             <input type="file" accept="image/*" onChange= {this.handleChangeCouverture} required/>
             </div>
            <div className="file-path-wrapper">
            <input className="file-path validate" type="text"/>
